@@ -60,9 +60,9 @@ namespace MultiThreadedSerialIO
                     switch (command)
                     {
                         case "MOVE":
-                            if (File.Exists("C:\\Users\\Ian\\source\\repos\\MultiThreadedSerialIO\\MultiThreadedSerialIO\\VendingData.txt"))
+                            if (File.Exists("C:\\VendingData.txt"))
                             {
-                                Data = File.ReadAllText("C:\\Users\\Ian\\source\\repos\\MultiThreadedSerialIO\\MultiThreadedSerialIO\\VendingData.txt");
+                                Data = File.ReadAllText("C:\\VendingData.txt");
                                 rawData = Data.Split(',');
                                 for (int i = 0; i < 3; i++) {
                                     Console.WriteLine(rawData[i]);

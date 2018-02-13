@@ -5,3 +5,10 @@ c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\
 c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.csproj.CoreCompileInputs.cache
 c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.exe
 c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.pdb
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\bin\Debug\MultiThreadedSerialIO.exe.config
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\bin\Debug\MultiThreadedSerialIO.exe
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\bin\Debug\MultiThreadedSerialIO.pdb
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\obj\Debug\MultiThreadedSerialIO.csprojResolveAssemblyReference.cache
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\obj\Debug\MultiThreadedSerialIO.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\obj\Debug\MultiThreadedSerialIO.exe
+C:\Users\Ian\Documents\GitHub\vending-machine-repo\.NET Host (C#)\obj\Debug\MultiThreadedSerialIO.pdb
