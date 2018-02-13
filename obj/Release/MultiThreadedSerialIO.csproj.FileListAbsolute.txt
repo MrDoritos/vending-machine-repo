@@ -1,0 +1,6 @@
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Release\MultiThreadedSerialIO.exe.config
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Release\MultiThreadedSerialIO.exe
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Release\MultiThreadedSerialIO.pdb
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Release\MultiThreadedSerialIO.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Release\MultiThreadedSerialIO.exe
+C:\Users\Ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Release\MultiThreadedSerialIO.pdb

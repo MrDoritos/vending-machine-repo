@@ -1,0 +1,7 @@
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Debug\MultiThreadedSerialIO.exe.config
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Debug\MultiThreadedSerialIO.exe
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\bin\Debug\MultiThreadedSerialIO.pdb
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.csprojResolveAssemblyReference.cache
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.csproj.CoreCompileInputs.cache
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.exe
+c:\users\ian\source\repos\MultiThreadedSerialIO\MultiThreadedSerialIO\obj\Debug\MultiThreadedSerialIO.pdb
