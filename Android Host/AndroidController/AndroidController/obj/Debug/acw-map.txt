@@ -1,0 +1,4 @@
+AndroidController.MainActivity, AndroidController;md5960f02b3cb0ebce4e580f56334d4377f.MainActivity
+AndroidController.MainActivity, AndroidController, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5960f02b3cb0ebce4e580f56334d4377f.MainActivity
+AndroidController.MainActivity;md5960f02b3cb0ebce4e580f56334d4377f.MainActivity
+androidcontroller.MainActivity;md5960f02b3cb0ebce4e580f56334d4377f.MainActivity

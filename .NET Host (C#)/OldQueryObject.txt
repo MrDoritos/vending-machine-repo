@@ -1,0 +1,47 @@
+﻿        public static void Query(string command, string args)
+        {
+            if (!(command is null))
+            {
+                if (!(args is null))
+                {
+                    switch (command)
+                    {
+                        case "MOVE":
+                            if (File.Exists("C:\\VendingData.txt"))
+                            {
+                                Data = File.ReadAllText("C:\\VendingData.txt");
+                                rawData = Data.Split(',');
+                                for (int i = 0; i < 3; i++) {
+                                    Console.WriteLine(rawData[i]);
+                                }
+                                switch (args.ToUpper())
+                                {
+                                    case "A":
+                                        Console.WriteLine("Functioning On Cell 'A'");
+                                        ArduinoCom.WriteLine(rawData[1]);
+                                        break;
+                                    default:
+                                        Console.WriteLine("That cell has no available switch!");
+                                        break;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("File not found!");
+                            }
+                            break;
+                        case "EXIT":
+                            Environment.Exit(0);
+                            break;
+                        case "IO":
+                            ArduinoCom.WriteLine(args);
+                            break;
+                        default:
+                            Console.WriteLine("Ambiguous Command");
+                            break;
+                    }
+                    args = null;
+                } else { return; }
+                command = null;
+            } else { return; }
+        }
