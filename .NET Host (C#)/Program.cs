@@ -58,7 +58,7 @@ namespace MultiThreadedSerialIO
             Console.WriteLine("Thread Initiated");
                 while (true)
             {
-                Thread.Sleep(100);
+                Thread.Sleep(10);
                 incoming = ArduinoCom.ReadLine();
                 Console.WriteLine(incoming);
                 switch (incoming)
@@ -127,31 +127,31 @@ namespace MultiThreadedSerialIO
                 case 0:
                     selectedSlot = 0;
                     activeCost = 0.25F;
-                    SendString("SEL" + option);
+                    SendString("H" + option);
                     break;
                 case 1:
                     selectedSlot = 1;
                     activeCost = 0.25F;
-                    SendString("SEL" + option);
+                    SendString("H" + option);
                     break;
                 case 79:
                     calculateChange(curBalance);
                     break;
                 case 80:
                     curBalance = curBalance + 0.01F;
-                    SendString("CHBAL" + curBalance.ToString());
+                    //SendString("CHBAL" + curBalance.ToString());
                     break;
                 case 81:
                     curBalance = curBalance + 0.05F;
-                    SendString("CHBAL" + curBalance.ToString());
+                    //SendString("CHBAL" + curBalance.ToString());
                     break;
                 case 82:
                     curBalance = curBalance + 0.10F;
-                    SendString("CHBAL" + curBalance.ToString());
+                    //SendString("CHBAL" + curBalance.ToString());
                     break;
                 case 83:
                     curBalance = curBalance + 0.25F;
-                    SendString("CHBAL" + curBalance.ToString());
+                    //SendString("CHBAL" + curBalance.ToString());
                     break;
                 case 255:
                     PreformAction(selectedSlot, activeCost);
@@ -175,7 +175,7 @@ namespace MultiThreadedSerialIO
             {
                 if (caseNum == 254) { SendString("NOSEL"); } else {
                     curBalance = curBalance - cost;
-                    SendString("MOV" + caseNum.ToString() + '\n');
+                    SendString("MOV" + caseNum.ToString());
                     SendString("CHBAL" + curBalance.ToString());
                 }
             } else { SendString("NOBAL"); }
