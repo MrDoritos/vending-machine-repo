@@ -16,8 +16,11 @@ void setup() {
   // put your setup code here, to run once:
   //Serial.setTimeout(100);
   Serial.begin(9600);
-  for (int i = 4; i <= 7; i++) {
+  for (int i = 2; i <= 10; i++) {
     pinMode(i, INPUT_PULLUP);
+  }
+  for (int i = 11; i <= 13; i++) {
+    pinMode(i, OUTPUT);
   }
 
   //For MotorShield
@@ -65,7 +68,7 @@ void loop() {
       case 'A':
       //Case For "Move Command"
       //Serial.print("option a");
-      motorFunction(incoming[2] - '0');
+      motorFunction((incoming[2] - '0')*45);
       break;
       case 'B':
       //Case For "One's Place Balance"
@@ -78,14 +81,17 @@ void loop() {
       //Case For "Hundreth's Place Balance"
       break;
       case 'E':
+      BlinkLight();
       //Case For Exception "Nothing Selected"
       //Serial.print("nosel ");
       break;
       case 'F':
+      BlinkLight();
       //Case For Exception "Not Enough Balance"
       //Serial.print("nobal ");
       break;
       case 'G':
+      BlinkLight();
       //Case For Exception "Out Of Stock"
       //Serial.print("outofstock");
       break;
@@ -103,6 +109,9 @@ void loop() {
 int motorFunction(int secondaryStepperSteps) {
   //Serial.print(secondaryStepperSteps);
   //Serial.print("\n");
+  //Serial.print(secondaryStepperSteps);
+  //Serial.print((secondaryStepperSteps/360.0)*200.0);
+  
   secondaryStepper->step(((secondaryStepperSteps/360.0)*200.0), FORWARD, DOUBLE);
 
   primaryStepper->step(((primaryStepperSteps/360.0)*200.0), FORWARD, DOUBLE);
@@ -114,5 +123,11 @@ int motorFunction(int secondaryStepperSteps) {
 
 int giveChange(int WhichCoin) {
   
+}
+
+void BlinkLight() {
+  digitalWrite(12, HIGH);
+  delay(1000);
+  digitalWrite(12, LOW);
 }
 
